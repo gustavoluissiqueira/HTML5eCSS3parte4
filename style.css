@@ -162,16 +162,9 @@ td,th{
 	font-size: 2em;
 	margin: 1em 0 1em;
 	clear:left;
+
 }
-.titulo-principal:first-letter{
-	font-weight: bold;
-}
-.titulo-principal::before{
-	content: "[ ";
-}
-.titulo-principal:after{
-	content: " ]";
-}
+
 .principal{
 	padding: 3em 0;
 	background: #fefefe;
@@ -213,8 +206,6 @@ td,th{
 .beneficios{
 	padding: 3em 0;
 	background: #888888;
-
-
 }
 
 .conteudo-beneficios{
@@ -241,6 +232,12 @@ td,th{
 }
 .imagem-beneficios{
 	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 20px 10px #000000;
+}
+.imagem-beneficios:hover{
+	opacity: 0.3;
 }
 
 .video{
